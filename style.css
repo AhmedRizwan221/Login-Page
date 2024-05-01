@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif ;
+}
+
+.main-container h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.login-section{
+ display: flex;
+ justify-content: center;
+ padding: 1rem 3rem;
+ width: 100%;
+ height: 100vh;
+ background-color:#ADEFD1FF;
+}
+
+.login-section i{
+    margin-right: 0.5rem;
+    font-size: 1rem;
+
+}
+form{
+    background-color: #FFFFFFFF;
+    padding: 5rem;
+    border-radius: 1.3rem;
+}
+
+input:focus{
+    outline: none;
+}
+form .input-div .input-icon input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    font-weight: lighter;
+}
+
+.input-div{
+    padding: 0.8rem 0;
+    display: flex;
+    flex-direction: column;   
+}
+
+.input-div label{
+    font-weight: bold;
+}
+.forget-password{
+  padding: 3rem;
+}
+.signup-btn{
+    background-color: rgb(237, 68, 212);
+    width:14.5rem;
+    height: 30px;
+    border-radius: 1rem;
+    margin: 2rem 0 3rem 0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bottom-section p{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-section a{
+    text-decoration: none;
+}
+
+.icon-section i{
+    width: 35px;
+    height: 35px;
+}
+
+
+.fa-brands{
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+   padding: 0.5rem;
+}
+.fa-facebook-f{
+    background-color: blue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-google{
+    background-color: orangered;
+}
+
+.fa-twitter{
+    background-color: black;
+}
+
